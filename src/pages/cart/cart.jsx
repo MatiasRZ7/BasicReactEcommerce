@@ -12,7 +12,7 @@ export const Cart = () => {
   return (
     <div className='cart'>
       <div>
-        <h1>Shopping Cart</h1>
+        <h1>Your Shopping Cart</h1>
       </div>
       <div className='cartItems'>
     {PRODUCTS.map((product) => {
